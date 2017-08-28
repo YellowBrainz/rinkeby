@@ -7,6 +7,28 @@ All steps in this procedure asume that you are using either OSX or Linux. The
 only real prerequisite is that you have a recent version of make installed. We
 want to have GNU make version 4.1 or higher.
 
+## Building go-ethereum
+
+Our Rinkeby ethereum node will be initialized, run and inspected using a geth
+(go-ethereum tool). I advice to build the geth tool from source and install the
+binaries somewhere in your search-path ($PATH).
+
+Get the go-ethereum repo from:
+
+```
+https://github.com/ethereum/go-ethereum
+```
+
+and in the go-ethereum folder simply build this project using the almighty:
+
+```
+make all
+```
+
+now you will find the binaries in "... /go-ethereum/build/bin" either include
+this bin dir in your search path ($PATH) or copy the binaries found in this
+folder to for instance ```"/usr/local/bin"```.
+
 ## Prepare dirs and change Makefile
 
 First create a directory from where you would like to build your rinkeby network
