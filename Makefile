@@ -1,6 +1,6 @@
 # Change these settings
-HOME_DIR=/home/smart-t
-ETH_DIR=/media/sdcard/workspace/ethereum/rinkeby
+HOME_DIR=/Users/smart-t
+ETH_DIR=/Users/smart-t/workspace/ethereum/rinkeby
 DATA_DIR=$(ETH_DIR)/datadir
 GENESIS_JSON=$(ETH_DIR)/rinkeby.json
 LOGS=$(ETH_DIR)/ethereum.log
