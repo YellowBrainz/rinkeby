@@ -1,2 +1,3 @@
 datadir/*
 ethereum.log
+.DS_Store
