@@ -51,11 +51,7 @@ ETH_DIR=/media/sdcard/workspace/ethereum/rinkeby
 so that it points to the location of your ``` .../rinkeby ``` folder. And write
 this updated Makefile to reflect this change.
 
-Initialize the rinkeby with the following make command:
-
-```
-make init
-```
+Initialization will happen automatically when you started with a new datadir.
 
 ## Run the Rinkeby node
 
