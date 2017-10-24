@@ -2,7 +2,6 @@
 HOME_DIR=/Users/smart-t
 ETH_DIR=/$(HOME_DIR)/workspace/ethereum/rinkeby
 DATA_DIR=$(ETH_DIR)/datadir
-GENESIS_JSON=$(ETH_DIR)/rinkeby.json
 LOGS=$(ETH_DIR)/ethereum.log
 
 # 0=silent, 1=error, 2=warn, 3=info, 4=core, 5=debug, 6=debug detail
